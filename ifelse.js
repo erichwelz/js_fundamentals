@@ -30,13 +30,13 @@ document.write("<p>" + "EXERCISE: The World Translator" + "</p>")
 
 function helloWorld(lang){
   if (lang == "de") {
-    document.write("<p>" + "Hallo Welt" + "</p>");
+    document.write("<p> Hallo Welt </p>");
   } else if (lang == "fr") {
-    document.write("<p>" + "Bonjour tout le monde" + "</p>");
+    document.write("<p> Bonjour tout le monde </p>");
   } else if (lang == "es") { 
-    document.write("<p>" + "hola mundo" + "</p>");
+    document.write("<p> hola mundo </p>");
   } else {
-    document.write("<p>" + "Hello World" + "</p>");
+    document.write("<p> Hello World </p>");
     }
   }
 
@@ -53,15 +53,15 @@ document.write("<p>" + "EXERCISE: The Grade Assigner" + "</p>")
 // Call that function for a few different scores and log the result to make sure it works.
 function assignGrade(num){
   if (num >= 85) {
-    document.write("<p>" + num + " is an A!" + "</p>");
+    document.write("<p>" + num + " is an A! </p>");
   } else if (num >= 70) {
-    document.write("<p>" + num + " is a B." + "</p>");
+    document.write("<p>" + num + " is a B. </p>");
   } else if (num >= 60) {
-    document.write("<p>" + num + " is a C." + "</p>");
+    document.write("<p>" + num + " is a C. </p>");
   } else if (num >= 50) {
-    document.write("<p>" + num + " is a D." + "</p>");
+    document.write("<p>" + num + " is a D. </p>");
   } else {
-    document.write("<p>" + num + " is an F." + "</p>");
+    document.write("<p>" + num + " is an F. </p>");
   }
 }
 
