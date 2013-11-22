@@ -84,7 +84,6 @@ var stars = ""
 for(i = 0; i <= favMovie.stars.length-1; i++) 
     stars += (favMovie.stars[i])
 
-
 document.write(favMovie.title + " lasts for " + favMovie.duration + " minutes. Stars: " + stars + ".<br />")
 
 

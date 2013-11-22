@@ -1,4 +1,5 @@
 // Exercise: GreaseMonkey 
+/*jshint multistr:true */
 
 // In these exercises, you'll write GreaseMonkey scripts that will get run on webpage. First, learn more about GreaseMonkey:
 

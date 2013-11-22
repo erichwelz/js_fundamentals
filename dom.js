@@ -1,3 +1,5 @@
+
+
 // Exercises: The DOM
 
 // EXERCISE: The Logo Hijack
@@ -9,6 +11,13 @@
 // Modify the source of the logo IMG so that it's a Yahoo logo instead.
 // Find the Google search button and store it in a variable.
 // Modify the text of the button so that it says "Yahooo!" instead.
+
+// MY ANSWER
+
+// logo = document.getElementById("hplogo")
+
+// logo.style.backgroundImage = "url(http://l.yimg.com/rz/d/yahoo_frontpage_en-CA_s_f_p_101x50_frontpage.png)"
+
 
 // EXERCISE: About Me
 
@@ -34,7 +43,12 @@
 // </html>
   
 // Add a script tag to the bottom.
+
+
 // Change the body style so it has a font-family of "Arial, sans-serif".
+
+
+
 // Replace each of the spans (nickname, favorites, hometown) with your own information.
 // Iterate through each li and change the class to "listitem". Add a style tag that sets a rule for "listitem" to make the color red.
 // Create a new img element and set its src attribute to a picture of you. Append that element to the page.
