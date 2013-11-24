@@ -1,13 +1,57 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>JS homework</title>
+      <title>The Book List</title>
       <meta charset="utf-8" />
     </head>
 
-    <script type"text/javascript" src="dom.js"></script>
+    <script>
+
+// EXERCISE: The Book List
+
+// Keep track of which books you read and which books you want to read!
+
+// Create a webpage with an h1 of "My Book List".
+// Add a script tag to the bottom of the page, where all your JS will go.
+// Copy the array of books from the previous exercise.
+// Iterate through the array of books. For each book, create a p element with the book title and author and append it to the page.
+// Bonus: Use a ul and li to display the books. 
+//Done
+// Bonus: add a property to each book with the URL of the book cover, and add an img element for each book on the page.
+
+// Bonus: Change the style of the book depending on whether you have read it or not.
+var objectBookList = [
+  {title: "Book A", author: "Author A", alreadyRead: true},
+  {title: "Book B", author: "Author B", alreadyRead: false},
+  {title: "Book C", author: "Author C", alreadyRead: true}
+  ];
+
+// Iterate through the array of books. For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".
+document.write('</ul>')
+var i = 0
+for  (i = 0; i < objectBookList.length; i++)
+document.write("<li>" + objectBookList[i].title + " by " + objectBookList[i].author + "</ li>")
+document.write('</ul>')
+
+
+// Now use an if/else statement to change the output depending on whether you read it yet or not. If you read it, log a string like 'You already read "The Hobbit" by J.R.R. Tolkien', and if not, log a string like 'You still need to read "The Lord of the Rings" by J.R.R. Tolkien.'
+
+document.write('</ul>')
+var i = 0
+for  (i = 0; i < objectBookList.length; i++)
+  if (objectBookList[i].alreadyRead) {
+    document.write("<li> You've already read " + objectBookList[i].title + " by " + objectBookList[i].author + ".</li>")   
+  } else {
+    document.write("<li><em> You still need to read " + objectBookList[i].title + " by " + objectBookList[i].author + "</em>.</li>");
+  }
+document.write('</ul>')
+
+
+    </script>
 
     <body>
       <h1></h1>
     </body>
   </html>
+
+
