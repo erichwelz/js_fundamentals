@@ -24,7 +24,8 @@
 // Hint: you can use .clone and .insertAfter
 
 $(document).ready(function() {
-  $("span").clone().insertAfter("span");
+  $("span").clone().insertAfter("span").css(
+    "float", "left");
 
 });
 
